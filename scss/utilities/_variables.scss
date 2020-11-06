@@ -1,10 +1,21 @@
-//Color Variables
+/******Color Variables******/
+
+//button color variables
+$default: #51ddfc;
+$error: #e4757a;
+$info: #927bc1;
+$success: #63cc82;
+$warning: #fd7856;
+$button-text: #fff;
+
+
+//button colors map
 $button-colors: (
-  default: #51ddfc,
-  error: #e4757a,
-  info: #927bc1,
-  success: #63cc82,
-  warning: #fd7856,
+  default: $default,
+  error: $error,
+  info: $info,
+  success: $success,
+  warning: $warning,
 );
 
 
