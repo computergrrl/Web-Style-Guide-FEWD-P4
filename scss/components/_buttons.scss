@@ -9,13 +9,15 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  @include transition;
   
   @each $key, $b-color in $button-colors {
     &.#{$key} {
       background-color: $b-color;
 
       &:hover {
-        background-color: lighten($b-color, 15%);
+        background-color: lighten($b-color, 10%);
+        @include transform;
       }
     }
   }

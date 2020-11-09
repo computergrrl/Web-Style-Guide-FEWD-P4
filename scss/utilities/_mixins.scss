@@ -1,0 +1,8 @@
+@mixin transition {
+    transition: transform .5s ease-out;
+}
+
+@mixin transform {
+    transform: scale(1.1, 1.1) translate(-5px, -5px);
+
+}
